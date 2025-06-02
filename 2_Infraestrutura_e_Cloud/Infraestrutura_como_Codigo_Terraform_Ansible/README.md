@@ -7,6 +7,8 @@ IaC é uma abordagem que permite **gerenciar e provisionar a infraestrutura de T
 
 ---
 
+![CICD](./CICD.png)
+
 ## 🚀 Por que isso importa para quem quer ser Engenheiro de Dados?
 
 Como engenheiro de dados, você lida com muitos serviços na nuvem: bancos de dados, clusters Spark, armazenamento em nuvem, etc. Com IaC, você pode:
