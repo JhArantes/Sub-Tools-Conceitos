@@ -1,78 +1,53 @@
-﻿
-# 🧠 Engenharia de Dados — Sub-Tools e Conceitos Fundamentais
+﻿# Engenharia de Dados: Sub-Tools e Conceitos Fundamentais
 
-Este repositório foi cuidadosamente estruturado para reunir os principais pilares e ferramentas da **Engenharia de Dados moderna**, organizados em tópicos temáticos para facilitar o aprendizado, consulta e prática.
+## Ãndice
 
----
+### 3_Processamento_de_Dados
+- [Bancos_de_Dados](3_Processamento_de_Dados/Bancos_de_Dados/README.md)
+- [SQL_PostgreSQL_MySQL_Oracle](3_Processamento_de_Dados/SQL_PostgreSQL_MySQL_Oracle/README.md)
+- [NoSQL_MongoDB_Cassandra_Redis](3_Processamento_de_Dados/NoSQL_MongoDB_Cassandra_Redis/README.md)
+- [Data_Warehouses_Snowflake_BigQuery_Redshift](3_Processamento_de_Dados/Data_Warehouses_Snowflake_BigQuery_Redshift/README.md)
+- [ETL_ELT_Spark_Airflow_dbt_Talend](3_Processamento_de_Dados/ETL_ELT_Spark_Airflow_dbt_Talend/README.md)
 
-## 📁 Estrutura do Repositório
+### 4_Big_Data_e_Distribuidos
+- [Frameworks_Processamento_Spark_Flink_Hadoop](4_Big_Data_e_Distribuidos/Frameworks_Processamento_Spark_Flink_Hadoop/README.md)
+- [Streaming_Kafka_Pulsar_SparkStreaming](4_Big_Data_e_Distribuidos/Streaming_Kafka_Pulsar_SparkStreaming/README.md)
+- [Formatos_Parquet_Delta_Avro](4_Big_Data_e_Distribuidos/Formatos_Parquet_Delta_Avro/README.md)
 
-### 1. Desenvolvimento e Automação
-- `APIs_e_Web_Services_REST_GraphQL_gRPC`
-- `Containerizacao_e_Orquestracao_Docker_Kubernetes_Airflow`
-- `Controle_de_Versao_Git_GitHub_GitLab_CI_CD`
-- `Protocolos_de_Rede_HTTP_TCP_gRPC`
+### 1_Desenvolvimento_e_Automacao
+- [APIs_e_Web_Services_REST_GraphQL_gRPC](1_Desenvolvimento_e_Automacao/APIs_e_Web_Services_REST_GraphQL_gRPC/README.md)
+- [Containerizacao_e_Orquestracao_Docker_Kubernetes_Airflow](1_Desenvolvimento_e_Automacao/Containerizacao_e_Orquestracao_Docker_Kubernetes_Airflow/README.md)
+- [Controle_de_Versao_Git_GitHub_GitLab_CI_CD](1_Desenvolvimento_e_Automacao/Controle_de_Versao_Git_GitHub_GitLab_CI_CD/README.md)
+- [Protocolos_de_Rede_HTTP_TCP_gRPC](1_Desenvolvimento_e_Automacao/Protocolos_de_Rede_HTTP_TCP_gRPC/README.md)
 
-### 2. Infraestrutura e Cloud
-- `Infraestrutura_como_Codigo_Terraform_Ansible`
-- `Cloud_Computing_AWS_GCP_Azure`
-- `Servicos_Gerenciados_Kafka_Snowflake_Redshift`
+### 10_Machine_Learning_Engineering
+- [MLOps_MLflow_Kubeflow_TFX](10_Machine_Learning_Engineering/MLOps_MLflow_Kubeflow_TFX/README.md)
+- [Feature_Stores_Feast_Hopsworks](10_Machine_Learning_Engineering/Feature_Stores_Feast_Hopsworks/README.md)
 
-### 3. Processamento de Dados
-- `Bancos_de_Dados`
-- `SQL_PostgreSQL_MySQL_Oracle`
-- `NoSQL_MongoDB_Cassandra_Redis`
-- `Data_Warehouses_Snowflake_BigQuery_Redshift`
-- `ETL_ELT_Spark_Airflow_dbt_Talend`
+### 2_Infraestrutura_e_Cloud
+- [Infraestrutura_como_Codigo_Terraform_Ansible](2_Infraestrutura_e_Cloud/Infraestrutura_como_Codigo_Terraform_Ansible/README.md)
+- [Cloud_Computing_AWS_GCP_Azure](2_Infraestrutura_e_Cloud/Cloud_Computing_AWS_GCP_Azure/README.md)
+- [Servicos_Gerenciados_Kafka_Snowflake_Redshift](2_Infraestrutura_e_Cloud/Servicos_Gerenciados_Kafka_Snowflake_Redshift/README.md)
 
-### 4. Big Data & Distributed Systems
-- `Frameworks_Processamento_Spark_Flink_Hadoop`
-- `Streaming_Kafka_Pulsar_SparkStreaming`
-- `Formatos_Parquet_Delta_Avro`
+### 6_Testes_e_Qualidade_de_Dados
+- [Testes_de_Pipeline_Unitarios_Integracao_DataChecks](6_Testes_e_Qualidade_de_Dados/Testes_de_Pipeline_Unitarios_Integracao_DataChecks/README.md)
+- [Ferramentas_GreatExpectations_Deequ_pytest](6_Testes_e_Qualidade_de_Dados/Ferramentas_GreatExpectations_Deequ_pytest/README.md)
+- [Monitoramento_Prometheus_Grafana_Datadog](6_Testes_e_Qualidade_de_Dados/Monitoramento_Prometheus_Grafana_Datadog/README.md)
 
-### 5. Segurança e Acesso
-- `Autenticacao_Autorizacao_OAuth_IAM_Kerberos`
-- `Criptografia_SSL_TLS_PGP`
-- `Acesso_Remoto_SSH_VPN_Bastion`
+### 5_Seguranca_e_Acesso
+- [Autenticacao_Autorizacao_OAuth_IAM_Kerberos](5_Seguranca_e_Acesso/Autenticacao_Autorizacao_OAuth_IAM_Kerberos/README.md)
+- [Criptografia_SSL_TLS_PGP](5_Seguranca_e_Acesso/Criptografia_SSL_TLS_PGP/README.md)
+- [Acesso_Remoto_SSH_VPN_Bastion](5_Seguranca_e_Acesso/Acesso_Remoto_SSH_VPN_Bastion/README.md)
 
-### 6. Testes e Qualidade de Dados
-- `Testes_de_Pipeline_Unitarios_Integracao_DataChecks`
-- `Ferramentas_GreatExpectations_Deequ_pytest`
-- `Monitoramento_Prometheus_Grafana_Datadog`
+### 7_Scripting_e_Linha_de_Comando
+- [Shell_Script_Bash_Zsh](7_Scripting_e_Linha_de_Comando/Shell_Script_Bash_Zsh/README.md)
+- [Linguagens_de_Script_Python_PySpark_Scala](7_Scripting_e_Linha_de_Comando/Linguagens_de_Script_Python_PySpark_Scala/README.md)
 
-### 7. Scripting e Linha de Comando
-- `Shell_Script_Bash_Zsh`
-- `Linguagens_de_Script_Python_PySpark_Scala`
+### 8_Observability_e_Logs
+- [Gestao_de_Logs_ELK_Splunk_Fluentd](8_Observability_e_Logs/Gestao_de_Logs_ELK_Splunk_Fluentd/README.md)
+- [Monitoramento_de_Pipelines_Airflow_Alerts_Spark_UI](8_Observability_e_Logs/Monitoramento_de_Pipelines_Airflow_Alerts_Spark_UI/README.md)
 
-### 8. Observability e Logs
-- `Gestao_de_Logs_ELK_Splunk_Fluentd`
-- `Monitoramento_de_Pipelines_Airflow_Alerts_Spark_UI`
+### 9_Governanca_e_Metadados
+- [Catalogos_de_Dados_DataHub_Amundsen_Unity](9_Governanca_e_Metadados/Catalogos_de_Dados_DataHub_Amundsen_Unity/README.md)
+- [Linage_Metadata_OpenLineage_Marquez](9_Governanca_e_Metadados/Linage_Metadata_OpenLineage_Marquez/README.md)
 
-### 9. Governança e Metadados
-- `Catalogos_de_Dados_DataHub_Amundsen_Unity`
-- `Linage_Metadata_OpenLineage_Marquez`
-
-### 10. Machine Learning Engineering (Opcional)
-- `MLOps_MLflow_Kubeflow_TFX`
-- `Feature_Stores_Feast_Hopsworks`
-
----
-
-## 🎯 Objetivo
-
-Este repositório foi criado para ser um guia prático e atualizado para quem deseja atuar ou evoluir na área de Engenharia de Dados. Ele pode ser usado para:
-
-- Aprendizado estruturado e progressivo;
-- Organização de estudos por subtema;
-- Desenvolvimento de projetos práticos;
-- Consulta de ferramentas e boas práticas.
-
----
-
-## 🤝 Contribuições
-
-Contribuições são bem-vindas! Sinta-se à vontade para enviar melhorias, correções ou novos tópicos.
-
----
-
-**Desenvolvido com foco em clareza, organização e aprendizado contínuo.**
