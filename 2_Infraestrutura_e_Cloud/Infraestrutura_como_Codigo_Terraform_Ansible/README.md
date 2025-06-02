@@ -71,3 +71,6 @@ IaC (Infraestrutura Como Código) nasceu no universo DevOps, mas rapidamente che
 Neste curso você vai desenvolver suas habilidades com Terraform, uma ferramenta open-source que permite definir a infraestrutura como código usando uma linguagem simples e declarativa e implantar e gerenciar essa infraestrutura em uma variedade de provedores de cloud computing (em nuvem pública ou privada) e virtualização, com apenas alguns comandos.
 
 Além do Terraform você vai trabalhar com AWS, Azure e Databricks através de diversos Labs e Projetos. O conhecimento que você irá adquirir neste curso vai colocá-lo muito a frente de outros profissionais do mercado, aumentando de forma considerável sua empregabilidade na área de dados, independente da sua função.
+
+
+![Beneficios IaC](./IaC-Beneficios.png)
